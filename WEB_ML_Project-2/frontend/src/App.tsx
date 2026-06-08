@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Heart, Send, RefreshCw, Activity, Download, BarChart3, User, ClipboardList, Mic, MicOff, Volume2, VolumeX, Moon, Sun, Info, Shield, Zap, AlertCircle } from 'lucide-react';
-import { ResponsiveContainer, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, PieChart, Pie, Cell, Radar, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, Label } from 'recharts';
+import { Heart, Send, RefreshCw, Activity, Download, User, ClipboardList, Mic, MicOff, Volume2, VolumeX, Moon, Sun, Info, Shield, Zap, AlertCircle } from 'lucide-react';
+import { ResponsiveContainer, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, PieChart, Pie, Cell, } from 'recharts';
 import { jsPDF } from 'jspdf';
 import { motion, AnimatePresence } from 'framer-motion';
 import './App.css';
