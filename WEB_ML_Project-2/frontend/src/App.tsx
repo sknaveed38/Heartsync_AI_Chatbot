@@ -182,7 +182,8 @@ function App() {
     setIsProcessing(true);
     setMessages(prev => [...prev, { id: Date.now(), text: "Analyzing your results using our AI model...", sender: 'bot' }]);
     try {
-      const response = await fetch('http://localhost:8000/predict', {
+      const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+      const response = await fetch(`${API_URL}/predict`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(data),
