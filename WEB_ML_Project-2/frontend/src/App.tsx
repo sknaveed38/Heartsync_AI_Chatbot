@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { Heart, Send, RefreshCw, Activity, Download, User, ClipboardList, Mic, MicOff, Volume2, VolumeX, Moon, Sun, Info, Shield, Zap, AlertCircle } from 'lucide-react';
 import { ResponsiveContainer, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, PieChart, Pie, Cell, } from 'recharts';
 import { jsPDF } from 'jspdf';
