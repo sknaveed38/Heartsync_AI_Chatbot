@@ -291,13 +291,13 @@ function App() {
 
   const progress = currentStep === -1 ? 0 : ((currentStep + 1) / QUESTIONS.length) * 100;
 
-  const radarData = result ? [
+  /*const radarData = result ? [
     { subject: 'BP', A: formData.trestbps, fullMark: 200 },
     { subject: 'Chol', A: formData.chol / 2, fullMark: 200 },
     { subject: 'Heart Rate', A: formData.thalach, fullMark: 200 },
     { subject: 'ST Dep.', A: formData.oldpeak * 20, fullMark: 200 },
     { subject: 'Vessels', A: formData.ca * 50, fullMark: 200 },
-  ] : [];
+  ] : [];*/
 
   return (
     <div className={`app-container ${isDarkMode ? 'dark' : ''}`}>
